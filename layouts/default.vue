@@ -22,7 +22,7 @@
         display: flex;
         .page{
             padding: 20px;
-            max-width: calc(100% - 265px);
+            max-width: calc(100% - 250px);
             width: 100%;
             overflow: auto;
         }

@@ -67,7 +67,6 @@ onMounted(() => {
 <style scoped lang="scss">
 .table-page{
     margin-bottom: 100px;
-    max-width: 1200px;
     &__title{
         margin-bottom: 25px;
         font-size: 30px;
