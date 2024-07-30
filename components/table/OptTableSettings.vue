@@ -5,12 +5,12 @@
             :key="`table-settings-item-${itemIndex}`"
             class="opt-table-settings__item"
             :class="{'opt-table-settings__item_open' : activeItem}"
-            @click="!activeItem ? activeItem = item : activeItem = null"
         >
             <div
                 v-if="!activeItem || activeItem.name == item.name"
                 class="item-type"
                 :class="{'item-type_open': activeItem}"
+                @click.stop="!activeItem ? activeItem = item : activeItem = null"
             >
                 <p>
                     {{ item.name }}
