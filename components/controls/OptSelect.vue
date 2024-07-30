@@ -7,7 +7,11 @@
         >
             <span>{{ selectedOptionLabel }}</span>
             <div class="arrow">
-                <svg-icon icon="arrow-right" />
+                <svg-icon
+                    icon="arrow-input"
+                    width="8"
+                    height="8"
+                />
             </div>
         </div>
         <Teleport to="body">
@@ -140,7 +144,6 @@ onBeforeUnmount(() => {
     height: calc(100% - 4px);
     background-color: #f6f5f3;
     opacity: 0.9;
-    border-radius: 4px;
   }
 
   .custom-select__dropdown {
