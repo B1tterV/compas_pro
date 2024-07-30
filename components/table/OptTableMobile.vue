@@ -63,7 +63,7 @@
 <script setup lang="ts">
 import draggable from 'vuedraggable'
 import { useTableStore } from '~/store/table'
-const { columns, rows, actions, tableNames } = storeToRefs(useTableStore())
+const { columns, rows, tableNames } = storeToRefs(useTableStore())
 const openActionIndex = ref<number>(-1)
 
 </script>
